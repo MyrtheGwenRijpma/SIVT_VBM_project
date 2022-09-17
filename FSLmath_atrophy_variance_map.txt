@@ -1,0 +1,8 @@
+fslmaths PIDN_date_smwc1.nii -add PIDN_date_smwc1.nii sum_test
+fslmaths sum_test.nii.gz -div 171 mean_test
+fslmaths PIDN_date_smwc1.nii -sub mean_test.nii.gz PIDN_date_deviation
+fslmaths PIDN_date_smwc1.nii -sub mean_test.nii.gz PIDN_date_deviation
+fslmaths PIDN_date_deviation.nii.gz -mul PIDN_date_deviation.nii.gz PIDN_date_squared
+fslmaths PIDN_date_deviation.nii.gz -mul PIDN_date_deviation.nii.gz PIDN_date_squared
+fslmaths PIDN_date_squared.nii.gz -add PIDN_date_squared.nii.gz ss_test
+fslmaths ss_test.nii.gz -div 170 var_test
