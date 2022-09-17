@@ -22,3 +22,4 @@ The R ggplot package is used to plot the distribution of the primary performance
 
 # FSLmath_atrophy_variance_map.txt
 Includes an example (test) code that can be used in FSL math through the terminal. The entire code has to be run for each individual in the sample.
+This method was based on a study by Ramanan and colleagues (2020): Ramanan, S., Roquet, D., Goldberg, Z., Hodges, J.R., Piguet, O., Irish, M., Lambon Ralph, M.A., 2020. Establishing two principal dimensions of cognitive variation in logopenic progressive aphasia. Brain Communications. https://doi.org/10.1093/braincomms/fcaa125
